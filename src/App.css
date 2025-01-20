@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  /* background-color: white; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  overflow: auto;
+}
+
+/* @media (max-width: 600px) {
+  body {
+    background-color: lightskyblue;
+  } 
+}*/
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-border {
+  border: 2px solid;
+  justify-content: center;
+  width: 60%;
+  margin: 30px 0px;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+#h2-frontEnd {
+  text-align: center;
+  margin: 70px 0px;
+}
+
+.header {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.experience-roadmap {
+  /* border: 2px solid black; */
+  border-bottom: 2px solid black;
+}
+
+.section-experience {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 8px;
+  width: 30%;
+}
+
+.section {
+  border: 2px solid;
+  display: flex;
+}
+
+.section-education {
+  border-left: 2px solid black;
+  padding: 12px;
+  gap: 8px;
+  width: 30%;
+}
+
+.section-education ul {
+  padding: 12px;
+}
+
+.underline-a {
+  border-bottom: 1px solid black;
+}
+
+.section-project {
+  border-right: 2px solid black;
+  padding: 12px;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.heading-para {
+  font-family:cursive
+}
+
+.section-project {
+  display: flex;
+  flex-direction: column;
+}
+.box-1,
+.box-2,
+.box-3 {
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 12px;
+  margin: 8px;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.professor-details {
+  color: lightgrey;
+}
+
+#review-box {
+  padding: 8px;
+}
+
+#colourful {
+  color: red;
+}
+
+#copyright {
+  text-align: center;
+  font-family: cursive;
+  margin: 70px 0px 30px 0px;
+}
+.anchors {
+  text-align: center;
+  margin: 30px 0px;
+  border: 2px solid rgb(29, 59, 5);
+  padding: 30px 0px;
+  border-radius: 30px;
+  /* display: inline-block; */
+}
+
+#photo {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  text-align: center;
+  background-color: aqua;
+}
+
+#profile {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+u {
+  text-decoration: underline;
+}
