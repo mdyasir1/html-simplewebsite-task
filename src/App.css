@@ -22,14 +22,9 @@ body {
 }
 
 .main-border {
-  /* border: 2px solid; */
   justify-content: center;
-  width: 60%;
+  width: 90%;
   margin: 30px 0px;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 #h2-frontEnd {
@@ -64,8 +59,13 @@ border: none;
   display: flex;
   flex-direction: column;
   padding: 12px;
-  gap: 8px;
+  gap: 8px; 
   width: 30%;
+}
+@media (max-width:400px){
+  .section-experience{
+    width: 0%;
+  }
 }
 
 .section {
@@ -85,6 +85,11 @@ border: none;
   gap: 8px;
   width: 30%;
 }
+@media (max-width: 400px) {
+  .section-education{
+    border: none;
+  }
+}
 
 .section-education ul {
   padding: 12px;
@@ -99,6 +104,11 @@ border: none;
   padding: 12px;
   gap: 8px;
   white-space: nowrap;
+}
+@media screen and (max-width:400px){
+  .section-project{
+    border:none;
+  }
 }
 
 .heading-para {
